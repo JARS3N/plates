@@ -8,8 +8,8 @@ plate<-function(i){
   )
 }
 
-# retain this for compatibility
-plate8 <- plate(8)
+
+plate8 <- function(){plate(8)}
 #plate24<-plate(24)
 #plate96 <-function(){
 #  x<-plate(96)
