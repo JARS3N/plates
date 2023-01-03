@@ -10,9 +10,9 @@ plate<-function(i){
 
 
 plate8 <- function(){plate(8)}
-#plate24<-plate(24)
-#plate96 <-function(){
-#  x<-plate(96)
-#  x$rings <-plates::rings_96()
-#  x
-# }
+plate24 <- function(){plate(24)}
+plate96 <-function(){
+  x<-plate(96)
+  x$rings <-plates::rings_96()
+  x
+}
